@@ -1,6 +1,5 @@
 /*
- * VitalCraft is a Spigot Plugin that gives players the ability to open a crafting interface.
- * Copyright © 2022 Leopold Meinel
+ * VitalSkull is a Spigot Plugin that gives players the ability to get their own skull.
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -13,7 +12,7 @@
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with this program. If not, see https://github.com/TamrielNetwork/VitalCraft/blob/main/LICENSE
+ * along with this program. If not, see https://github.com/TamrielNetwork/VitalSkull/blob/main/LICENSE
  */
 
 package com.tamrielnetwork.vitalcraft.files;
