@@ -3,6 +3,7 @@
 
 ##############################################################################
 # VitalSkull is a Spigot Plugin that gives players the ability to get their own skull.
+# Copyright © 2022 Leopold Meinel
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
