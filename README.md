@@ -10,23 +10,23 @@
 <!--suppress ALL -->
 <br />
 <p align="center">
-  <a href="https://github.com/TamrielNetwork/VitalFly">
+  <a href="https://github.com/TamrielNetwork/VitalSkull">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">VitalFly</h3>
+<h3 align="center">VitalSkull</h3>
 
   <p align="center">
-    Fly on Spigot and Paper
+    Get your own skull on Spigot and Paper
     <br />
-    <a href="https://github.com/TamrielNetwork/VitalFly"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/TamrielNetwork/VitalSkull"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/TamrielNetwork/VitalFly">View Demo</a>
+    <a href="https://github.com/TamrielNetwork/VitalSkull">View Demo</a>
     ·
-    <a href="https://github.com/TamrielNetwork/VitalFly/issues">Report Bug</a>
+    <a href="https://github.com/TamrielNetwork/VitalSkull/issues">Report Bug</a>
     ·
-    <a href="https://github.com/TamrielNetwork/VitalFly/issues">Request Feature</a>
+    <a href="https://github.com/TamrielNetwork/VitalSkull/issues">Request Feature</a>
   </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -62,21 +62,17 @@
 
 ### Description
 
-VitalFly is a Plugin that gives players the ability to fly.
+VitalSkull is a Plugin that gives players the ability to get their own skull.
 
-This plugin is perfect for any server wanting their players to fly in survival.
+This plugin is perfect for any server wanting their players to be able to display or trade heads.
 
 ### Features
 
-* Toggle fly on and off for command sender and other players
-* Set fly speed for command sender and other players
-* Keep fly on world change
-* Keep fly toggled on rejoin when player is falling
-* Keep fly toggled when player changes back to survival
+* Get your own skull
 
 ### Built With
 
-* [Gradle 7](https://docs.gradle.org/7.3.3/release-notes.html)
+* [Gradle 7](https://docs.gradle.org/7.4/release-notes.html)
 * [OpenJDK 17](https://openjdk.java.net/projects/jdk/17/)
 
 <!-- GETTING STARTED -->
@@ -87,64 +83,22 @@ To get the plugin running on your server follow these simple steps.
 
 ### Commands and Permissions
 
-1. Permission: `vitalfly.fly`
+1. Permission: `vitalskull.own`
 
-* Command: `/vitalfly fly`
-* Description: Toggle fly
-
-2. Permission: `vitalfly.fly.others`
-
-* Command: `/vitalfly fly <player>`
-* Description: Toggle fly for other players
-
-3. Permission: `vitalfly.flyspeed`
-
-* Command: `/vitalfly flyspeed <flyspeed>`
-* Description: Set flyspeed
-
-4. Permission: `vitalfly.flyspeed.others`
-
-* Command: `/vitalfly flyspeed <player> <flyspeed>`
-* Description: Set flyspeed for other players
-
-5. Permission: `vitalfly.fly.worldchange`
-
-* Description: Keep fly on worldchange
-
-6. Permission: `vitalfly.fly.gamemodechange`
-
-* Description: Keep fly on gamemodechange
-
-7. Permission: `vitalfly.fly.login`
-
-* Description: Keep fly on login
+* Command: `/vitalskull`
+* Description: Get your own skull
 
 ### Configuration - config.yml
 
 ```
-flyspeed:
-  # Values from 1-10
-  # Don't use floating-point numbers
-  limit: 10
 ```
 
 ### Configuration - messages.yml
 
 ```
-no-args: "&7Enter this command: &b/vitalfly fly/flyspeed <player> <flyspeed>"
 player-only: "&cThis command can only be executed by players!"
-invalid-option: "&cInvalid option!"
-invalid-player: "&cInvalid player!"
-not-online: "&cPlayer is not online!"
-beyond-limit: "&cThe number is too high!"
 no-perms: "&7You don't have enough permissions!"
-invalid-amount: "&cInvalid amount!"
-now-flying: "&7Fly toggled &aON"
-now-flying-disabled: "&7Fly toggled &cOFF"
-player-now-flying: "&7Fly toggled &aON &7for &b%player%"
-player-now-flying-disabled: "&7Fly toggled &cOFF &7for &b%player%"
-flyspeed-changed: "&7FlySpeed set to &b%flyspeed%&7"
-player-flyspeed-changed: "&7Flyspeed set to &b%flyspeed% &7for &b%player%&7"
+cmd: "cmd"
 ```
 
 <!-- ROADMAP -->
@@ -181,7 +135,7 @@ Leopold Meinel - [@TamrielN](https://twitter.com/TamrielN) - Twitter
 
 Leopold Meinel - [contact@tamriel.me](mailto:contact@tamriel.me) - eMail
 
-Project Link - [VitalFly](https://github.com/TamrielNetwork/VitalFly) - GitHub
+Project Link - [VitalSkull](https://github.com/TamrielNetwork/VitalSkull) - GitHub
 
 <!-- ACKNOWLEDGEMENTS -->
 
@@ -191,26 +145,26 @@ Project Link - [VitalFly](https://github.com/TamrielNetwork/VitalFly) - GitHub
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[contributors-shield]: https://img.shields.io/github/contributors-anon/TamrielNetwork/VitalFly?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors-anon/TamrielNetwork/VitalSkull?style=for-the-badge
 
-[contributors-url]: https://github.com/TamrielNetwork/VitalFly/graphs/contributors
+[contributors-url]: https://github.com/TamrielNetwork/VitalSkull/graphs/contributors
 
-[forks-shield]: https://img.shields.io/github/forks/TamrielNetwork/VitalFly?label=Forks&style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/TamrielNetwork/VitalSkull?label=Forks&style=for-the-badge
 
-[forks-url]: https://github.com/TamrielNetwork/VitalFly/network/members
+[forks-url]: https://github.com/TamrielNetwork/VitalSkull/network/members
 
-[stars-shield]: https://img.shields.io/github/stars/TamrielNetwork/VitalFly?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/TamrielNetwork/VitalSkull?style=for-the-badge
 
-[stars-url]: https://github.com/TamrielNetwork/VitalFly/stargazers
+[stars-url]: https://github.com/TamrielNetwork/VitalSkull/stargazers
 
-[issues-shield]: https://img.shields.io/github/issues/TamrielNetwork/VitalFly?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/TamrielNetwork/VitalSkull?style=for-the-badge
 
-[issues-url]: https://github.com/TamrielNetwork/VitalFly/issues
+[issues-url]: https://github.com/TamrielNetwork/VitalSkull/issues
 
-[license-shield]: https://img.shields.io/github/license/TamrielNetwork/VitalFly?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/TamrielNetwork/VitalSkull?style=for-the-badge
 
-[license-url]: https://github.com/TamrielNetwork/VitalFly/blob/main/LICENSE
+[license-url]: https://github.com/TamrielNetwork/VitalSkull/blob/main/LICENSE
 
-[quality-shield]: https://img.shields.io/codefactor/grade/github/TamrielNetwork/VitalFly?style=for-the-badge
+[quality-shield]: https://img.shields.io/codefactor/grade/github/TamrielNetwork/VitalSkull?style=for-the-badge
 
-[quality-url]: https://www.codefactor.io/repository/github/TamrielNetwork/VitalFly
+[quality-url]: https://www.codefactor.io/repository/github/TamrielNetwork/VitalSkull

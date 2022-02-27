@@ -16,15 +16,17 @@
  * along with this program. If not, see https://github.com/TamrielNetwork/VitalSkull/blob/main/LICENSE
  */
 
-package com.tamrielnetwork.vitalcraft.utils.commands;
+package com.tamrielnetwork.vitalskull.utils.commands;
 
-import com.tamrielnetwork.vitalcraft.utils.Chat;
+import com.tamrielnetwork.vitalskull.utils.Chat;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;
 
 public class Cmd {
+
 	public static boolean isArgsLengthNotEqualTo(@NotNull CommandSender sender, @NotNull String[] args, int length) {
+
 		if (args.length != length) {
 			Chat.sendMessage(sender, "cmd");
 			return true;
@@ -33,6 +35,7 @@ public class Cmd {
 	}
 
 	public static boolean isNotPermitted(@NotNull CommandSender sender, @NotNull String perm) {
+
 		if (!sender.hasPermission(perm)) {
 			Chat.sendMessage(sender, "no-perms");
 			return true;
@@ -41,10 +44,12 @@ public class Cmd {
 	}
 
 	public static boolean isInvalidSender(@NotNull CommandSender sender) {
+
 		if (!(sender instanceof Player)) {
 			Chat.sendMessage(sender, "player-only");
 			return true;
 		}
 		return false;
 	}
+
 }

@@ -16,16 +16,19 @@
  * along with this program. If not, see https://github.com/TamrielNetwork/VitalSkull/blob/main/LICENSE
  */
 
-package com.tamrielnetwork.vitalcraft.commands;
+package com.tamrielnetwork.vitalskull.commands;
 
-import com.tamrielnetwork.vitalcraft.utils.commands.Cmd;
+import com.tamrielnetwork.vitalskull.utils.commands.Cmd;
+import com.tamrielnetwork.vitalskull.utils.commands.CmdSpec;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
+import org.bukkit.inventory.Inventory;
+import org.bukkit.inventory.ItemStack;
 import org.jetbrains.annotations.NotNull;
 
-public class VitalCraftCmd implements CommandExecutor {
+public class VitalSkullCmd implements CommandExecutor {
 
 	@Override
 	public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args) {
@@ -33,18 +36,27 @@ public class VitalCraftCmd implements CommandExecutor {
 		if (Cmd.isArgsLengthNotEqualTo(sender, args, 0)) {
 			return true;
 		}
-		doCraft(sender);
+		doOwnSkull(sender);
 		return true;
 
 	}
 
-	private void doCraft(@NotNull CommandSender sender) {
-		Player senderPlayer = (Player) sender;
+	private void doOwnSkull(@NotNull CommandSender sender) {
 
-		if (Cmd.isInvalidSender(sender) || Cmd.isNotPermitted(sender, "vitalcraft.craft")) {
+		if (CmdSpec.isInvalidCmd(sender, "vitalskull.own")) {
 			return;
 		}
-		senderPlayer.openWorkbench(senderPlayer.getLocation(), true);
+
+		Player senderPlayer = (Player) sender;
+		Inventory senderInventory = senderPlayer.getInventory();
+		ItemStack playerHead = CmdSpec.getHeadItem(senderPlayer);
+
+		if (!(CmdSpec.hasFreeInventorySlot(senderPlayer))) {
+			return;
+		}
+
+		senderInventory.addItem(playerHead);
 
 	}
+
 }
