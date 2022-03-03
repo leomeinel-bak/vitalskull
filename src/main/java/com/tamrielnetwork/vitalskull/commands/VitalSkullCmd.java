@@ -43,7 +43,7 @@ public class VitalSkullCmd implements CommandExecutor {
 
 	private void doOwnSkull(@NotNull CommandSender sender) {
 
-		if (CmdSpec.isInvalidCmd(sender, "vitalskull.own")) {
+		if (CmdSpec.isInvalidCmd(sender, "vitalskull.skull")) {
 			return;
 		}
 

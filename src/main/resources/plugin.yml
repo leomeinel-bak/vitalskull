@@ -6,10 +6,13 @@ authors: [ Tamriel Network ]
 website: https://tamriel.site
 description: Gives players the ability to get their own skull.
 commands:
-  vitalskull:
+  skull:
     description: "Main command"
-    usage: "/vitalskull"
+    usage: "/skull"
 permissions:
-  vitalskull.own:
+  vitalskull.skull:
     description: "Permission to get your own head"
+    default: op
+  vitalskull.cooldown.bypass:
+    description: "Permission to bypass cooldown"
     default: op

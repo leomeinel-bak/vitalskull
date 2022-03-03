@@ -83,9 +83,9 @@ To get the plugin running on your server follow these simple steps.
 
 ### Commands and Permissions
 
-1. Permission: `vitalskull.own`
+1. Permission: `vitalskull.skull`
 
-* Command: `/vitalskull`
+* Command: `/skull`
 * Description: Get your own skull
 
 ### Configuration - config.yml

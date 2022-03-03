@@ -32,7 +32,7 @@ public final class VitalSkull extends JavaPlugin {
 	@Override
 	public void onEnable() {
 
-		Objects.requireNonNull(getCommand("vitalskull")).setExecutor(new VitalSkullCmd());
+		Objects.requireNonNull(getCommand("skull")).setExecutor(new VitalSkullCmd());
 
 		saveDefaultConfig();
 
