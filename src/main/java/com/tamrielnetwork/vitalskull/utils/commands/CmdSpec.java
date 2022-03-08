@@ -30,6 +30,7 @@ import org.bukkit.scheduler.BukkitRunnable;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.HashMap;
+import java.util.Map;
 import java.util.Objects;
 import java.util.UUID;
 
@@ -93,7 +94,7 @@ public class CmdSpec {
 
 		if (isOnCooldown) {
 			String timeRemaining = String.valueOf(cooldownMap.get(senderPlayer.getUniqueId()) - System.currentTimeMillis() / 1000);
-			Chat.sendMessage(sender, java.util.Map.of("%time-left%", timeRemaining), "cooldown-active");
+			Chat.sendMessage(sender, Map.of("%time-left%", timeRemaining), "cooldown-active");
 			return true;
 		}
 		cooldownMap.put(senderPlayer.getUniqueId(), main.getConfig().getLong("cooldown.time") + System.currentTimeMillis() / 1000);
