@@ -38,6 +38,7 @@ public class CmdSpec {
 
 	private static final VitalSkull main = JavaPlugin.getPlugin(VitalSkull.class);
 	private static final HashMap<UUID, Long> cooldownMap = new HashMap<>();
+
 	private CmdSpec() {
 
 		throw new IllegalStateException("Utility class");
