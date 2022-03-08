@@ -18,7 +18,6 @@
 
 package com.tamrielnetwork.vitalskull.utils.commands;
 
-import com.google.common.collect.ImmutableMap;
 import com.tamrielnetwork.vitalskull.VitalSkull;
 import com.tamrielnetwork.vitalskull.utils.Chat;
 import org.bukkit.Material;
@@ -38,6 +37,10 @@ public class CmdSpec {
 
 	private static final VitalSkull main = JavaPlugin.getPlugin(VitalSkull.class);
 	private static final HashMap<UUID, Long> cooldownMap = new HashMap<>();
+	private CmdSpec() {
+
+		throw new IllegalStateException("Utility class");
+	}
 
 	public static ItemStack getHeadItem(@NotNull Player player) {
 
@@ -90,7 +93,7 @@ public class CmdSpec {
 
 		if (isOnCooldown) {
 			String timeRemaining = String.valueOf(cooldownMap.get(senderPlayer.getUniqueId()) - System.currentTimeMillis() / 1000);
-			Chat.sendMessage(sender, ImmutableMap.of("%time-left%", timeRemaining), "cooldown-active");
+			Chat.sendMessage(sender, java.util.Map.of("%time-left%", timeRemaining), "cooldown-active");
 			return true;
 		}
 		cooldownMap.put(senderPlayer.getUniqueId(), main.getConfig().getLong("cooldown.time") + System.currentTimeMillis() / 1000);

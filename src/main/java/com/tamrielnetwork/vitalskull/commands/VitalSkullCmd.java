@@ -34,7 +34,7 @@ public class VitalSkullCmd implements CommandExecutor {
 	public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args) {
 
 		if (Cmd.isArgsLengthNotEqualTo(sender, args, 0)) {
-			return true;
+			return false;
 		}
 		doOwnSkull(sender);
 		return true;
