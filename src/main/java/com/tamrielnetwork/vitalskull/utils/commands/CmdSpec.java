@@ -51,20 +51,14 @@ public class CmdSpec {
 		return playerHead;
 	}
 
+	public static boolean isInvalidCmd(@NotNull CommandSender sender, @NotNull String perm) {
+		return Cmd.isInvalidSender(sender) || Cmd.isNotPermitted(sender, perm) || isOnCooldown(sender);
+	}
+
 	public static boolean hasFreeInventorySlot(@NotNull Player player) {
 		return player.getInventory()
 		             .firstEmpty() != -1 || (Objects.requireNonNull(player.getActiveItem())
 		                                            .getAmount() > 1);
-	}
-
-	public static boolean isInvalidCmd(@NotNull CommandSender sender, @NotNull String perm) {
-		if (Cmd.isInvalidSender(sender)) {
-			return true;
-		}
-		if (Cmd.isNotPermitted(sender, perm)) {
-			return true;
-		}
-		return isOnCooldown(sender);
 	}
 
 	private static void clearMap(@NotNull CommandSender sender) {
