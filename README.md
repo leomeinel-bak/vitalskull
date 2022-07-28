@@ -10,7 +10,7 @@
 <!--suppress ALL -->
 <br />
 <p align="center">
-  <a href="https://github.com/TamrielNetwork/VitalSkull">
+  <a href="https://github.com/LeoMeinel/VitalSkull">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -19,14 +19,14 @@
   <p align="center">
     Get your own skull on Spigot and Paper
     <br />
-    <a href="https://github.com/TamrielNetwork/VitalSkull"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/LeoMeinel/VitalSkull"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/TamrielNetwork/VitalSkull">View Demo</a>
+    <a href="https://github.com/LeoMeinel/VitalSkull">View Demo</a>
     ·
-    <a href="https://github.com/TamrielNetwork/VitalSkull/issues">Report Bug</a>
+    <a href="https://github.com/LeoMeinel/VitalSkull/issues">Report Bug</a>
     ·
-    <a href="https://github.com/TamrielNetwork/VitalSkull/issues">Request Feature</a>
+    <a href="https://github.com/LeoMeinel/VitalSkull/issues">Request Feature</a>
   </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -116,7 +116,7 @@ cooldown-active: "&cYou can't use that command for another &b%time-left% &csecon
 
 ## Roadmap
 
-See the [open issues](https://github.com/TamrielNetwork/VitalFly/issues) for a list of proposed features (and known
+See the [open issues](https://github.com/LeoMeinel/VitalFly/issues) for a list of proposed features (and known
 issues).
 
 <!-- CONTRIBUTING -->
@@ -146,7 +146,7 @@ Leopold Meinel - [@TamrielN](https://twitter.com/TamrielN) - Twitter
 
 Leopold Meinel - [contact@tamriel.me](mailto:contact@tamriel.me) - eMail
 
-Project Link - [VitalSkull](https://github.com/TamrielNetwork/VitalSkull) - GitHub
+Project Link - [VitalSkull](https://github.com/LeoMeinel/VitalSkull) - GitHub
 
 <!-- ACKNOWLEDGEMENTS -->
 
@@ -156,26 +156,26 @@ Project Link - [VitalSkull](https://github.com/TamrielNetwork/VitalSkull) - GitH
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[contributors-shield]: https://img.shields.io/github/contributors-anon/TamrielNetwork/VitalSkull?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors-anon/LeoMeinel/VitalSkull?style=for-the-badge
 
-[contributors-url]: https://github.com/TamrielNetwork/VitalSkull/graphs/contributors
+[contributors-url]: https://github.com/LeoMeinel/VitalSkull/graphs/contributors
 
-[forks-shield]: https://img.shields.io/github/forks/TamrielNetwork/VitalSkull?label=Forks&style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/LeoMeinel/VitalSkull?label=Forks&style=for-the-badge
 
-[forks-url]: https://github.com/TamrielNetwork/VitalSkull/network/members
+[forks-url]: https://github.com/LeoMeinel/VitalSkull/network/members
 
-[stars-shield]: https://img.shields.io/github/stars/TamrielNetwork/VitalSkull?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/LeoMeinel/VitalSkull?style=for-the-badge
 
-[stars-url]: https://github.com/TamrielNetwork/VitalSkull/stargazers
+[stars-url]: https://github.com/LeoMeinel/VitalSkull/stargazers
 
-[issues-shield]: https://img.shields.io/github/issues/TamrielNetwork/VitalSkull?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/LeoMeinel/VitalSkull?style=for-the-badge
 
-[issues-url]: https://github.com/TamrielNetwork/VitalSkull/issues
+[issues-url]: https://github.com/LeoMeinel/VitalSkull/issues
 
-[license-shield]: https://img.shields.io/github/license/TamrielNetwork/VitalSkull?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/LeoMeinel/VitalSkull?style=for-the-badge
 
-[license-url]: https://github.com/TamrielNetwork/VitalSkull/blob/main/LICENSE
+[license-url]: https://github.com/LeoMeinel/VitalSkull/blob/main/LICENSE
 
-[quality-shield]: https://img.shields.io/codefactor/grade/github/TamrielNetwork/VitalSkull?style=for-the-badge
+[quality-shield]: https://img.shields.io/codefactor/grade/github/LeoMeinel/VitalSkull?style=for-the-badge
 
-[quality-url]: https://www.codefactor.io/repository/github/TamrielNetwork/VitalSkull
+[quality-url]: https://www.codefactor.io/repository/github/LeoMeinel/VitalSkull
