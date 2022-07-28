@@ -16,10 +16,10 @@
  * along with this program. If not, see https://github.com/LeoMeinel/VitalSkull/blob/main/LICENSE
  */
 
-package com.tamrielnetwork.vitalskull.commands;
+package dev.meinel.leo.vitalskull.commands;
 
-import com.tamrielnetwork.vitalskull.utils.commands.Cmd;
-import com.tamrielnetwork.vitalskull.utils.commands.CmdSpec;
+import dev.meinel.leo.vitalskull.utils.commands.Cmd;
+import dev.meinel.leo.vitalskull.utils.commands.CmdSpec;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;

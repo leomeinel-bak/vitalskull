@@ -16,9 +16,9 @@
  * along with this program. If not, see https://github.com/LeoMeinel/VitalSkull/blob/main/LICENSE
  */
 
-package com.tamrielnetwork.vitalskull.files;
+package dev.meinel.leo.vitalskull.files;
 
-import com.tamrielnetwork.vitalskull.VitalSkull;
+import dev.meinel.leo.vitalskull.VitalSkull;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;

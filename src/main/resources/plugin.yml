@@ -1,6 +1,6 @@
 name: VitalSkull
 version: @version@
-main: com.tamrielnetwork.vitalskull.VitalSkull
+main: dev.meinel.leo.vitalskull.VitalSkull
 api-version: 1.17
 authors: [ Leopold Meinel ]
 description: Gives players the ability to get their own skull.

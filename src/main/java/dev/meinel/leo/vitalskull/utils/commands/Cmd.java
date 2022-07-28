@@ -16,9 +16,9 @@
  * along with this program. If not, see https://github.com/LeoMeinel/VitalSkull/blob/main/LICENSE
  */
 
-package com.tamrielnetwork.vitalskull.utils.commands;
+package dev.meinel.leo.vitalskull.utils.commands;
 
-import com.tamrielnetwork.vitalskull.utils.Chat;
+import dev.meinel.leo.vitalskull.utils.Chat;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.jetbrains.annotations.NotNull;

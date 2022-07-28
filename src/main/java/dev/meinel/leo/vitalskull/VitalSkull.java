@@ -16,10 +16,10 @@
  * along with this program. If not, see https://github.com/LeoMeinel/VitalSkull/blob/main/LICENSE
  */
 
-package com.tamrielnetwork.vitalskull;
+package dev.meinel.leo.vitalskull;
 
-import com.tamrielnetwork.vitalskull.commands.VitalSkullCmd;
-import com.tamrielnetwork.vitalskull.files.Messages;
+import dev.meinel.leo.vitalskull.commands.VitalSkullCmd;
+import dev.meinel.leo.vitalskull.files.Messages;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
