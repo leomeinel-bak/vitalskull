@@ -1,4 +1,5 @@
 <!-- PROJECT SHIELDS -->
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -69,12 +70,12 @@ This plugin is perfect for any server wanting their players to be able to displa
 
 ### Features
 
-* Get your own skull
+- Get your own skull
 
 ### Built With
 
-* [Gradle 7](https://docs.gradle.org/7.4/release-notes.html)
-* [OpenJDK 17](https://openjdk.java.net/projects/jdk/17/)
+- [Gradle 7](https://docs.gradle.org/7.4/release-notes.html)
+- [OpenJDK 17](https://openjdk.java.net/projects/jdk/17/)
 
 <!-- GETTING STARTED -->
 
@@ -86,12 +87,12 @@ To get the plugin running on your server follow these simple steps.
 
 1. Permission: `vitalskull.skull`
 
-* Command: `/skull`
-* Description: Get your own skull
+- Command: `/skull`
+- Description: Get your own skull
 
 2. Permission: `vitalskull.cooldown.bypass`
 
-* Description: Bypass cooldown
+- Description: Bypass cooldown
 
 ### Configuration - config.yml
 
@@ -150,30 +151,19 @@ Project Link - [VitalSkull](https://github.com/LeoMeinel/VitalSkull) - GitHub
 
 ### Acknowledgements
 
-* [README.md - othneildrew](https://github.com/othneildrew/Best-README-Template)
+- [README.md - othneildrew](https://github.com/othneildrew/Best-README-Template)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
 [contributors-shield]: https://img.shields.io/github/contributors-anon/LeoMeinel/VitalSkull?style=for-the-badge
-
 [contributors-url]: https://github.com/LeoMeinel/VitalSkull/graphs/contributors
-
 [forks-shield]: https://img.shields.io/github/forks/LeoMeinel/VitalSkull?label=Forks&style=for-the-badge
-
 [forks-url]: https://github.com/LeoMeinel/VitalSkull/network/members
-
 [stars-shield]: https://img.shields.io/github/stars/LeoMeinel/VitalSkull?style=for-the-badge
-
 [stars-url]: https://github.com/LeoMeinel/VitalSkull/stargazers
-
 [issues-shield]: https://img.shields.io/github/issues/LeoMeinel/VitalSkull?style=for-the-badge
-
 [issues-url]: https://github.com/LeoMeinel/VitalSkull/issues
-
 [license-shield]: https://img.shields.io/github/license/LeoMeinel/VitalSkull?style=for-the-badge
-
 [license-url]: https://github.com/LeoMeinel/VitalSkull/blob/main/LICENSE
-
 [quality-shield]: https://img.shields.io/codefactor/grade/github/LeoMeinel/VitalSkull?style=for-the-badge
-
 [quality-url]: https://www.codefactor.io/repository/github/LeoMeinel/VitalSkull
