@@ -11,7 +11,7 @@
 <!--suppress ALL -->
 <br />
 <p align="center">
-  <a href="https://github.com/LeoMeinel/VitalSkull">
+  <a href="https://github.com/LeoMeinel/vitalskull">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -20,14 +20,14 @@
   <p align="center">
     Get your own skull on Spigot and Paper
     <br />
-    <a href="https://github.com/LeoMeinel/VitalSkull"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/LeoMeinel/vitalskull"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/LeoMeinel/VitalSkull">View Demo</a>
+    <a href="https://github.com/LeoMeinel/vitalskull">View Demo</a>
     ·
-    <a href="https://github.com/LeoMeinel/VitalSkull/issues">Report Bug</a>
+    <a href="https://github.com/LeoMeinel/vitalskull/issues">Report Bug</a>
     ·
-    <a href="https://github.com/LeoMeinel/VitalSkull/issues">Request Feature</a>
+    <a href="https://github.com/LeoMeinel/vitalskull/issues">Request Feature</a>
   </p>
 
 <!-- ABOUT THE PROJECT -->
@@ -89,7 +89,7 @@ cooldown-active: "&cYou can't use that command for another &b%time-left% &csecon
 
 ## Roadmap
 
-See the [open issues](https://github.com/LeoMeinel/VitalFly/issues) for a list of proposed features (and known
+See the [open issues](https://github.com/LeoMeinel/vitalskull/issues) for a list of proposed features (and known
 issues).
 
 <!-- CONTRIBUTING -->
@@ -117,7 +117,7 @@ Distributed under the GNU General Public License v3.0. See `LICENSE` for more in
 
 Leopold Meinel - [leo@meinel.dev](mailto:leo@meinel.dev) - eMail
 
-Project Link - [VitalSkull](https://github.com/LeoMeinel/VitalSkull) - GitHub
+Project Link - [VitalSkull](https://github.com/LeoMeinel/vitalskull) - GitHub
 
 <!-- ACKNOWLEDGEMENTS -->
 
@@ -127,15 +127,15 @@ Project Link - [VitalSkull](https://github.com/LeoMeinel/VitalSkull) - GitHub
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[contributors-shield]: https://img.shields.io/github/contributors-anon/LeoMeinel/VitalSkull?style=for-the-badge
-[contributors-url]: https://github.com/LeoMeinel/VitalSkull/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/LeoMeinel/VitalSkull?label=Forks&style=for-the-badge
-[forks-url]: https://github.com/LeoMeinel/VitalSkull/network/members
-[stars-shield]: https://img.shields.io/github/stars/LeoMeinel/VitalSkull?style=for-the-badge
-[stars-url]: https://github.com/LeoMeinel/VitalSkull/stargazers
-[issues-shield]: https://img.shields.io/github/issues/LeoMeinel/VitalSkull?style=for-the-badge
-[issues-url]: https://github.com/LeoMeinel/VitalSkull/issues
-[license-shield]: https://img.shields.io/github/license/LeoMeinel/VitalSkull?style=for-the-badge
-[license-url]: https://github.com/LeoMeinel/VitalSkull/blob/main/LICENSE
-[quality-shield]: https://img.shields.io/codefactor/grade/github/LeoMeinel/VitalSkull?style=for-the-badge
-[quality-url]: https://www.codefactor.io/repository/github/LeoMeinel/VitalSkull
+[contributors-shield]: https://img.shields.io/github/contributors-anon/LeoMeinel/vitalskull?style=for-the-badge
+[contributors-url]: https://github.com/LeoMeinel/vitalskull/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/LeoMeinel/vitalskull?label=Forks&style=for-the-badge
+[forks-url]: https://github.com/LeoMeinel/vitalskull/network/members
+[stars-shield]: https://img.shields.io/github/stars/LeoMeinel/vitalskull?style=for-the-badge
+[stars-url]: https://github.com/LeoMeinel/vitalskull/stargazers
+[issues-shield]: https://img.shields.io/github/issues/LeoMeinel/vitalskull?style=for-the-badge
+[issues-url]: https://github.com/LeoMeinel/vitalskull/issues
+[license-shield]: https://img.shields.io/github/license/LeoMeinel/vitalskull?style=for-the-badge
+[license-url]: https://github.com/LeoMeinel/vitalskull/blob/main/LICENSE
+[quality-shield]: https://img.shields.io/codefactor/grade/github/LeoMeinel/vitalskull?style=for-the-badge
+[quality-url]: https://www.codefactor.io/repository/github/LeoMeinel/vitalskull
