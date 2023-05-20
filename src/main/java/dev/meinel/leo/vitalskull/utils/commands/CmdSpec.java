@@ -2,7 +2,7 @@
  * File: CmdSpec.java
  * Author: Leopold Meinel (leo@meinel.dev)
  * -----
- * Copyright (c) 2022 Leopold Meinel & contributors
+ * Copyright (c) 2023 Leopold Meinel & contributors
  * SPDX ID: GPL-3.0-or-later
  * URL: https://www.gnu.org/licenses/gpl-3.0-standalone.html
  * -----
@@ -42,17 +42,14 @@ public class CmdSpec {
         return playerHead;
     }
 
-    public static boolean isInvalidCmd(
-            @NotNull CommandSender sender,
-            @NotNull String perm) {
-        return (Cmd.isInvalidSender(sender) ||
-                Cmd.isNotPermitted(sender, perm) ||
-                isOnCooldown(sender));
+    public static boolean isInvalidCmd(@NotNull CommandSender sender, @NotNull String perm) {
+        return (Cmd.isInvalidSender(sender) || Cmd.isNotPermitted(sender, perm)
+                || isOnCooldown(sender));
     }
 
     public static boolean hasFreeInventorySlot(@NotNull Player player) {
-        return (player.getInventory().firstEmpty() != -1 ||
-                (Objects.requireNonNull(player.getActiveItem()).getAmount() > 1));
+        return (player.getInventory().firstEmpty() != -1
+                || (Objects.requireNonNull(player.getActiveItem()).getAmount() > 1));
     }
 
     private static void clearMap(@NotNull CommandSender sender) {
@@ -66,33 +63,22 @@ public class CmdSpec {
             public void run() {
                 clearMap(sender);
             }
-        }
-                .runTaskLaterAsynchronously(
-                        main,
-                        (main.getConfig().getLong("cooldown.time") * 20L));
+        }.runTaskLaterAsynchronously(main, (main.getConfig().getLong("cooldown.time") * 20L));
     }
 
     private static boolean isOnCooldown(@NotNull CommandSender sender) {
         Player senderPlayer = (Player) sender;
-        boolean isOnCooldown = main.getConfig().getBoolean("cooldown.enabled") &&
-                !sender.hasPermission("vitalskull.cooldown.bypass") &&
-                cooldownMap.containsKey(senderPlayer.getUniqueId());
+        boolean isOnCooldown = main.getConfig().getBoolean("cooldown.enabled")
+                && !sender.hasPermission("vitalskull.cooldown.bypass")
+                && cooldownMap.containsKey(senderPlayer.getUniqueId());
         if (isOnCooldown) {
-            String timeRemaining = String.valueOf(
-                    cooldownMap.get(senderPlayer.getUniqueId()) -
-                            System.currentTimeMillis() /
-                                    1000);
-            Chat.sendMessage(
-                    sender,
-                    Map.of("%time-left%", timeRemaining),
-                    "cooldown-active");
+            String timeRemaining = String.valueOf(cooldownMap.get(senderPlayer.getUniqueId())
+                    - System.currentTimeMillis() / 1000);
+            Chat.sendMessage(sender, Map.of("%time-left%", timeRemaining), "cooldown-active");
             return true;
         }
-        cooldownMap.put(
-                senderPlayer.getUniqueId(),
-                main.getConfig().getLong("cooldown.time") +
-                        System.currentTimeMillis() /
-                                1000);
+        cooldownMap.put(senderPlayer.getUniqueId(),
+                main.getConfig().getLong("cooldown.time") + System.currentTimeMillis() / 1000);
         doTiming(sender);
         return false;
     }
