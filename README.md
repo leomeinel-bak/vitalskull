@@ -79,7 +79,6 @@ cooldown:
 ### Configuration - messages.yml
 
 ```yaml
-cmd: "&fUsage: &b/skull"
 no-perms: "&cYou don't have enough permissions!"
 player-only: "&cThis command can only be executed by players!"
 cooldown-active: "&cYou can't use that command for another &b%time-left% &cseconds!"
